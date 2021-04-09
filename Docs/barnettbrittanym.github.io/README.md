@@ -1,1 +1,0 @@
-# barnettbrittanym.github.io
