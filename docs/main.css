@@ -353,9 +353,7 @@ box-sizing: border-box;/*This creates a box with a border within which we will p
     .Column_2 {
         height: 200px;
     }
-    img {
-        height: fit-content;
-    }
+    
 } 
 /*This inserts something after the content of selected elements*/
 .Row::after {
