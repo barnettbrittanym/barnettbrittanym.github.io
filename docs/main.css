@@ -195,7 +195,7 @@ footer {
     padding-top: 2vh;
     position: relative;/*This sets the text relative to its normal positioning, allowing us to use the animation below*/
     -webkit-animation: moveVideoText 5.75s;
-    animation: moveVideText 5.75s;
+    animation: moveVideoText 5.75s;
 }
 
 /*This animation effect causes the overlay video text to move up from the bottom of the page upon page load*/
@@ -211,7 +211,7 @@ footer {
 }
 
 .mySlides {
-    display: none; /*This prevents the images from being displayed, we will use JS to display these */
+    display: none; 
 }
 
 /*Slideshow section / container */
@@ -240,7 +240,8 @@ footer {
     top: 50%;
     width: auto;
     padding: 2vw;
-    color: darkgray;
+    color: white;
+    background-color: rgba(0,0,0,.8);/*Makes the background of the arrows a transparent gray color */
     font-weight: bold;
     font-size: 1.5vw;
     border-radius:0 3px 3px 0;/*Adds a slightly rounded border on the top and bottom right corners*/
@@ -252,12 +253,14 @@ footer {
 .Next {
     right: 0;
     border-radius: 3px 0 0 3px; /*This changes the border radius on the next button to the top and bottom left of the button*/
+    background-color: rgba(0,0,0,.8);/*Makes the background of the arrows a transparent gray color */
+    color: white; 
 }
 
 /*Hover effect on slide show buttons */
 .Previous:hover, .Next:hover {
-    background-color: rgba(0,0,0,.8);/*Makes the background of the arrows a transparent gray color */
-    color: white; /*Makes the arrows white when hovered over */
+    background-color: rgba(0,0,0,.5);/*Makes the background of the arrows a transparent gray color */
+    color: black; /*Makes the arrows white when hovered over */
 }
 
 /*Slideshow text */
@@ -356,9 +359,9 @@ box-sizing: border-box;/*This creates a box with a border within which we will p
 } 
 /*This inserts something after the content of selected elements*/
 .Row::after {
-    content: "";/*By leaving this blank, we are allowing the footer to be displayed-removing it makes the footer overwrite a column */
-    display: table;/*The display property specifies the type of display behavior; the table value tells the browser to treat the element as a table*/
-    clear: both;/*This clears any other elements from floating on the left or right of the element*/
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /*****End of Table styling*****/
