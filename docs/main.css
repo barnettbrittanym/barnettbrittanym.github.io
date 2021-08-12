@@ -52,6 +52,8 @@ p {
     padding-right: 1vw;
 }
 
+
+
 /*Paragraph element hover effect */
 p:hover {
     transition: transform 1s;
@@ -61,6 +63,7 @@ p:hover {
 /*Center class- this applies to all centered text*/
 .center {
     text-align: center;
+    
 }
 
 /*Center align elements hover effect- This only affects the quote, GitHub link, and footer */
@@ -79,6 +82,7 @@ a {
 /*Quotation elements */
 q {
     font-style: italic;
+    color: white;
 }
 
 /*Image elements*/
@@ -180,10 +184,10 @@ footer {
     z-index: -1;
 }
 
-x
+
 
 /*Texts over the video */
-.Video_Text {
+.Video_Text center{
     background: rgba(0,0,0,0.5);/*This provides a semi-transparent background for the text to sit over*/
     color: white;
     width: 100%;
@@ -324,9 +328,7 @@ box-sizing: border-box;/*This creates a box with a border within which we will p
         overflow: auto;
         height: 200px;
     }
-    img {
-        height: fit-content;
-    }
+    
     .Row{
         height: fit-content;
     }
@@ -347,6 +349,9 @@ box-sizing: border-box;/*This creates a box with a border within which we will p
 @media screen and (max-width: 576px) {
     .Column_2 {
         height: 200px;
+    }
+    img {
+        height: fit-content;
     }
 } 
 /*This inserts something after the content of selected elements*/
