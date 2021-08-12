@@ -96,14 +96,9 @@ img:hover {
     filter: grayscale(5%);
 }
 
-/*The @media rule is used in media queries to apply different styles for different media/types of devices*/
-/*On screens 576px and smaller the images will be 100px tall and centered vertically in the column*/
-@media screen and (max-width: 576 px) {
-    img{
-        height: 100px;
-        margin-top: 150px;
-    }
-}
+
+
+
 
 /*Styling for footer element */
 footer {
@@ -185,12 +180,7 @@ footer {
     z-index: -1;
 }
 
-/*Screens that are 576px and smaller will not display the background video*/
-@media screen and (max-width: 576px) {
-    #Typing_Video{
-    display: none;
-    }
-}
+x
 
 /*Texts over the video */
 .Video_Text {
