@@ -322,8 +322,19 @@ box-sizing: border-box;/*This creates a box with a border within which we will p
 @media screen and (max-width: 576px) {
     .Column_1 {
         overflow: auto;
+        height: 200px;
+    }
+    img {
+        height: fit-content;
+    }
+    .Row{
+        height: fit-content;
     }
 }
+
+    
+    
+
 
 .Column_2 {
     float: left;
@@ -333,6 +344,11 @@ box-sizing: border-box;/*This creates a box with a border within which we will p
     background-color: #4d4d4d;
 }
 
+@media screen and (max-width: 576px) {
+    .Column_2 {
+        height: 200px;
+    }
+} 
 /*This inserts something after the content of selected elements*/
 .Row::after {
     content: "";/*By leaving this blank, we are allowing the footer to be displayed-removing it makes the footer overwrite a column */
@@ -356,6 +372,8 @@ box-sizing: border-box;/*This creates a box with a border within which we will p
     -webkit-animation: movePopup 5s;
     animation: movePopup 5s;
 }
+
+
 
 /*movePopup animation moves the button from off the right side of the screen to its fixed location on the viewport */
 @keyframes movePopup {
@@ -441,3 +459,12 @@ button:hover, .form-container .btn:hover {
 }
 
 /*****End of Contact Form Styling *****/
+@media screen and (max-width: 576px) {
+    .Pop_Up_Button{
+        width: 50%;
+    }
+    .form-container{
+        width: 200px;
+        height: 200px;
+    }
+} 
