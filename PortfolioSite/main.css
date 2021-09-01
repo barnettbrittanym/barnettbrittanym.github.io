@@ -1,0 +1,70 @@
+/* Dark Color #2f4858*/
+/* Light color #ebf2fa*/
+
+/*Navbar Styling*/
+
+#navbarItems{
+    display: inline-flex;
+    text-decoration: none;
+}
+
+#navbarItems li{
+    text-decoration: none;
+    display: inline-flex;
+    color: #ebf2fa;
+    width: 100%;
+}
+
+#navbarItems a{
+    text-decoration: none;
+    margin: auto;
+}
+
+#aboutSection{
+    background-color: #03071e;
+    color: white;
+   
+}
+
+body{
+    font: 1rem/1.5 var(--bs-font-sans-serif);
+}
+#DefaultPic{
+    border-radius: 50%;
+    height: 200px;
+    border: 2px solid white;
+}
+
+.ResumeHeader{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#contactform{
+    background-color: #03071e;
+    color: white;
+    
+}
+
+.send-button{
+    border: none;
+    float: right;
+    background-color:#03071e;
+    color: white;
+    font-size: x-large;
+    margin-top: 10px;
+}
+
+.button-neutral{
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid #03071e;
+    color: #03071e;
+    font-size: large;
+    float: right;
+}
+
+#applicationbutton{
+    float: none;
+   
+}
